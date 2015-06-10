@@ -6,7 +6,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
-import org.springframework.stereotype.Repository;
 
 import com.model.FormModel;
 
