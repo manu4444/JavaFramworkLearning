@@ -6,7 +6,7 @@
   	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
   
     <class>
-    	com.eclipseLink.FormModel
+    	com.model.FormModel
     </class>
     <properties>
     <!-- Below Properties are taken care by Bean -->

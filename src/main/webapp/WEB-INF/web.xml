@@ -4,15 +4,6 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  
-<!--   <servlet> -->
-<!--   	<servlet-name>HelloWorld</servlet-name> -->
-<!--   	<servlet-class>SampleServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--   	<servlet-name>HelloWorld</servlet-name> -->
-<!--   	<url-pattern>/*</url-pattern> -->
-<!--   </servlet-mapping> -->
 
 <servlet>
     <servlet-name>Jersey Testing Service</servlet-name>
@@ -20,9 +11,8 @@
      <!-- Register resources and providers under com.vogella.jersey.first package. -->
     <init-param>
         <param-name>com.sun.jersey.config.property.packages</param-name>
-        <param-value>com.jersey</param-value>
+        <param-value>com.service</param-value>
     </init-param>
-    
     <init-param>
         <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
         <param-value>true</param-value>
